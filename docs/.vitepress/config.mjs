@@ -4,8 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "修改标题",
   description: "测试描述",
+  base: "/vitepress-test/",
   themeConfig: {
-    base: "/vitepress-test/",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
